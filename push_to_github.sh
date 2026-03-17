@@ -9,7 +9,7 @@
 set -e  # Exit immediately on any error
 
 GITHUB_USER="EODavis"
-BASE_DIR="$(cd "$(dirname "$0")" && pwd)/projects"
+BASE_DIR="/projects"
 
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
@@ -45,6 +45,7 @@ declare -a PROJECTS=(
   "project_01_file_organizer|py-file-organizer-bot|Automatically sorts messy folders into categorised subfolders by file type. Supports dry-run mode and CSV move-logging.|python,file-automation,cli,portfolio"
   "project_02_duplicate_finder|py-duplicate-finder|Recursively scans directories using SHA-256 hashing to detect duplicate files across folders. Outputs a CSV cleanup report.|python,file-automation,hashing,cli,portfolio"
   "project_03_bulk_renamer|py-bulk-file-renamer|Bulk renames files using composable strategies: slugify, snake_case, strip versions, dedupe words, date-prefix, sequential.|python,file-automation,cli,renaming,portfolio"
+  "project_04_folder_snapshot|py-folder-snapshot|Cryptographic directory snapshots with diff engine detecting ADDED, DELETED, MODIFIED and MOVED files. Per-file history tracking.|python,file-automation,hashing,diffing,portfolio"
 )
 
 # ─── LOOP THROUGH EACH PROJECT ───────────────────────────────────────────────

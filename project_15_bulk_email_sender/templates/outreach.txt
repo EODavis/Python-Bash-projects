@@ -1,0 +1,13 @@
+Subject: A quick note for {{first_name}} at {{company}}
+
+Hi {{first_name}},
+
+I hope this finds you well in {{city}}.
+
+I'm reaching out because your work as a {{role}} at {{company}} caught my
+attention. I'd love to connect and explore potential collaboration.
+
+Would you be open to a brief 20-minute call this week?
+
+Best regards,
+Alex Johnson

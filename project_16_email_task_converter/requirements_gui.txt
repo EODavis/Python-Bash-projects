@@ -1,0 +1,2 @@
+# For .exe build only
+pyinstaller>=5.0
